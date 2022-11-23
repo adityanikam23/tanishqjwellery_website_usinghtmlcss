@@ -1,0 +1,297 @@
+*{
+    font-family: cursive;
+    box-sizing: border-box;
+    margin: 0;
+    text-transform: capitalize;
+}
+header{
+    background-color: hotpink;
+    height: 80px;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+header a{
+    text-decoration: none;
+}
+header img{
+    width: 80px;
+    margin: 15px;
+    margin-left: 100px;
+}
+.search-bar input{
+    width: 40%;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    border-radius: 5px;
+}
+.right-items{
+    position: absolute;
+    right: 100px;
+    top: 25px;
+}
+.right-items p{
+    display: inline;
+    padding-right: 60px;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+.right-items p:hover{
+    color: brown;
+}
+nav{
+    /* background-color: blueviolet; */
+    height: 35px;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+
+}
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px;
+}
+li a:hover{
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: large;
+}
+section img{
+    width: 100%;
+}
+.med-section{
+    text-align: center;
+    color: brown;
+    font-weight: bolder;
+}
+.med-section h1{
+    font-size: 50px;
+}
+#main-article{
+    background-color: azure;
+    height: 350px;
+    display: flex;
+}
+#main-article h2{
+    color: brown;
+}
+.for-flex1{
+    flex:6;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+}
+.for-flex1 img{
+    width: 100%;
+}
+.for-flex2{
+    flex:6;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+}
+.for-flex2 img{
+    width: 100%;
+}
+.for-flex3{
+    flex:6;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+}
+.for-flex3 img{
+    width: 100%;
+}
+.for-flex4{
+    flex:6;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+}
+.for-flex4 img{
+    width: 100%;
+}
+.for-flex5{
+    flex:6;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+}
+.for-flex5 img{
+    width: 100%;
+}
+.for-flex6{
+    flex:6;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+}
+.for-flex6 img{
+    width: 100%;
+}
+#my-main-div{
+    display: flex;
+    text-align: center;
+    background-color: azure;
+    height: 550px;
+}
+#my-main-div img{
+    width: 100%;
+}
+#my-main-div .for-anchor{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+}
+#my-main-div .for-anchor:hover{
+    background-color: brown;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+.my-main-div1{
+    flex: 4;
+    border: 1px solid black;
+    margin: 15px;
+}
+/* .my-main-div1 a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px;
+    color: black;
+} */
+.my-main-div2{
+    flex: 4;
+    border: 1px solid black;
+    margin: 15px;
+}
+/* .my-main-div2 a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px;
+    color: black;
+} */
+.my-main-div3{
+    flex: 4;
+    border: 1px solid black;
+    margin: 15px;
+}
+/* .my-main-div3 a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px;
+    color: black;
+} */
+.my-main-div4{
+    flex: 4;
+    border: 1px solid black;
+    margin: 15px;
+}
+/* .my-main-div4 a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px;
+    color: black;
+} */
+.for-img-and-flex{
+    background-color: azure;
+    height: 600px;
+    display: flex;
+    text-align: center;
+}
+.for-img-and-flex .image-1{
+    width: 100%;
+}
+.flex-div1 .image-first{
+    width: 760px;
+    margin: 15px;
+}
+.for-img-and-flex .flex-div2,.flex-div3{
+    border: 2px solid black;
+    flex: 2;
+    margin: 15px;
+}
+.for-img-and-flex .explore-now{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+.for-img-and-flex .explore-now:hover{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+.see-more-products{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+    margin-left: 670px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.see-more-products:hover{
+    background-color: brown;
+    color:white;
+}
+.my-last-div{
+    text-align: center;
+    background-color: azure;
+    height: 1600px;
+    font-weight: bold;
+}
+#main-foot{
+    background-color: grey;
+    height: 450px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+}
+#main-foot .for-color{
+    color: orange;
+}
+.last-footdiv1{
+    flex: 3;
+    padding-left: 150px;
+}
+.last-footdiv1 a{
+    text-decoration: none;
+    color: white;
+}
+.last-footdiv1 a:hover{
+    color: hotpink;
+    text-decoration: underline;
+}
+.last-footdiv2{
+    flex: 3;
+    padding-left: 150px;
+}
+.last-footdiv2 a{
+    text-decoration: none;
+    color: white;
+}
+.last-footdiv2 a:hover{
+    color: hotpink;
+    text-decoration: underline;
+}
+.last-footdiv3{
+    flex: 3;
+    padding-left: 150px;
+}
+.last-footdiv3 a{
+    text-decoration:none;
+    color: white;
+}
+.last-footdiv3 a:hover{
+    color: hotpink;
+    text-decoration: underline;
+}
